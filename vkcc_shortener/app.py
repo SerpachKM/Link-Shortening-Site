@@ -9,7 +9,7 @@ import zipfile
 app = Flask(__name__)
 
 # Ваш API токен ВК
-VK_API_TOKEN = "vk1.a.cMyVTFqAmHn0dHpKzZhiol52nl2GyPDYrcr9EiTsSHrzP8HgZK3lWxOqFV4kDiPhtr7oLyonp-ueIPAOJk_bNhytGbnf2uAYdQnYXGv55Hiy9sFCqyn5X8Kp5BzdZNsbBfy5fvmZgM1pFtOkvO4RB34xVNSlQkwNEPyRtFkejJdFkXcnsxj8O9DUDYiNwoCs8t5cbiG71a6yOHI31yol9Q"
+VK_API_TOKEN = "ваш токен"
 VK_CC_API_URL = 'https://api.vk.com/method/utils.getShortLink'
 
 @app.route('/')
